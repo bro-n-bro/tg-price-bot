@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tg-bots"
+version = "0.1.0"
+description = ""
+authors = ["Bro_n_Bro <bro.n.bro.foundation@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-telegram-bot = "^13.7"
+requests = "^2.26.0"
+
+
+[tool.poetry.dev-dependencies]
+poethepoet = "^0.10.0"
+
+[tool.poe.tasks]
+bot-juno = "python juno/bot.py"
