@@ -23,7 +23,7 @@ def get_bonded_tokens() -> int:
 
 
 def get_circulating_supply() -> float:
-    res = requests.get(url='http://45.33.59.118:3000/', timeout=30).json()
+    res = requests.get(url='/', timeout=30).json()
     return float(res['circulatingSupply'])
 
 
