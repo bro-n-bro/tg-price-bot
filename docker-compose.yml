@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  juno-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile.juno
+    restart: always
